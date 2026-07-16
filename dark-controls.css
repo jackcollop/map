@@ -1,0 +1,15 @@
+/* Make the control text red so it reads clearly on the dark sidebar. */
+
+/* Dropdowns (metric, highlight): selected value + menu options */
+.dash-dropdown,
+.dash-dropdown * {
+    color: #694c4c !important;
+}
+
+/* RadioItems (view) + Checklist (months) labels */
+#view label,
+#months label,
+.dash-radioitems label,
+.dash-checklist label {
+    color: #5e3f3f !important;
+}
